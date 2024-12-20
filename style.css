@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+:root {
+    --blue : #0077b5;
+}
+body{
+    font-family: sans-serif;
+    overflow: scroll;
+}
+header h1 {
+    font-weight: bolder;
+    font-size: 30px;
+    color: var(--blue);
+}
+header h1 span {
+    color: white;
+    background-color: #0077b5;
+    border-radius: 5px;
+}
+section {
+    max-width: 250px;
+    width: 40vw;
+    min-width: 200px;
+    padding: 20px 15px;
+    margin: 50px auto 25px;
+    box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+section h2 {
+    margin: 0 0 4px;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+section>p {
+    font-size: 70%;
+    margin-top: 0px;
+    font-weight: 450px;
+}
+section input {
+    padding: 8px;
+    font-size: 15px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid rgba(0,0,0,0.4) ;
+    border-radius: 2px;
+    opacity: 1;
+    transition: 0.3s ease;
+}
+section input:focus {
+    outline: none;
+    font-size: 0.9em;
+}
+.password {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(0,0,0,0.4);
+
+}
+.password input {
+    border: none;
+    margin: 0;
+    padding: 10px;
+}
+.password input:focus{
+    outline: none;
+
+}
+.password a {
+    text-decoration: none;
+    font-size: 9px;
+    padding: 10px;
+    color: #0077b5;
+    font-weight: bold;
+
+}
+section a#pwd-change {
+    display: block;
+    color: #0077b5;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3 ease;
+    margin: 9px 0 14px ;
+}
+button {
+    padding: 10px;
+    width: 200px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #0077b5;
+    border: none;
+    font-weight: bold;
+
+}
+div.flex {
+    display: flex;
+    align-items: center;
+}
+div.flex p {
+    padding: 5px;
+    font-size: 10px;
+
+}    
+div.hor-line {
+    height: 1px;
+    width: 44%;
+    background-color: rgb(50, 50, 50,0.3);
+
+}
+#apple-icon {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    color: #0077b5;
+    font-weight: bold;
+    
+}
+main>p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: normal;
+}
+main>p a {
+    text-decoration: none;
+    color: #0077b5;
+}
+body nav {
+    width: 600px;
+    display: flex;
+    font-size: 9px;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 100px auto 20px;
+}
+body nav a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.6);
+}
+
+    
+
+
+
